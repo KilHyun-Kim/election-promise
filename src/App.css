@@ -1,0 +1,6 @@
+.planetmarker {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  opacity: 1;
+}
