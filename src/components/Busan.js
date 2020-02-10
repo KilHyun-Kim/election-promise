@@ -2,11 +2,19 @@ import React from "react";
 import "../css/Busan.css";
 import BusanImg from "../image/Busan (1).jpg";
 import AriaTag from "./AriaTag";
+import { AiOutlineHome } from "react-icons/ai";
+import { TiArrowBackOutline } from "react-icons/ti";
 const Busan = () => {
   return (
     <div>
       <div className="planetmap">
         <img alt="부산지도" src={BusanImg} name="img2" useMap="#busanAria" />
+        <a href="/" className="__Home" title="홈으로">
+          <AiOutlineHome />
+        </a>
+        <a href="/" className="__Home" title="이전으로">
+          <TiArrowBackOutline />
+        </a>
 
         <map name="busanAria">
           <AriaTag
