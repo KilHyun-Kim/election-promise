@@ -1,0 +1,45 @@
+header {
+  height: 80px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  margin: 10px 20px;
+  z-index: 3;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.header-container {
+  height: 100%;
+  padding: 0 20px;
+}
+.header-contents {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-contents a {
+  /* color 색 보류 */
+  font-size: 3.3em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Fredoka One";
+  font-family: "Montserrat";
+}
+.header-contents a:hover {
+  color: #444;
+}
+.header-contents button {
+  padding: 19px;
+  border: 0;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.header-contents button:hover {
+  background-color: #f0f0f0;
+  transition: 1s ease-in-out;
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import koreaMap from "../image/koreamap (1).jpg";
-import "../css/Basic.css";
 import AriaTag from "./AriaTag";
+import Notice from "./Notice";
 const Basic = () => {
   return (
-    <div>
+    <div className="BasicContainer">
+      <Notice />
       <div className="planetmap">
         <img
           src={koreaMap}

@@ -4,3 +4,12 @@
   background-color: black;
   opacity: 1;
 }
+
+.App {
+  width: 95%;
+  margin: 0 auto;
+}
+
+body {
+  background: #f0f0f0;
+}
