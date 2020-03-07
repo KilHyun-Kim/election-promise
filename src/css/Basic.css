@@ -49,12 +49,14 @@
   color: red;
   font-weight: bold;
 }
-.notice ul li:last-child {
+/* .notice ul li:last-child {
   text-align: right;
   font-weight: bold;
   font-size: 0.8em;
-}
+} */
 
 .fontEmphasize {
+  font-weight: bold;
+  font-size: 1em;
   font-family: "Rubik";
 }
