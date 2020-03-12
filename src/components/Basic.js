@@ -2,6 +2,7 @@ import React from "react";
 import koreaMap from "../image/koreamap (1).jpg";
 import AriaTag from "./AriaTag";
 import Notice from "./Notice";
+
 const Basic = () => {
   return (
     <div className="BasicContainer">

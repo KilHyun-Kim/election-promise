@@ -18,7 +18,8 @@ const data = {
         desc2:
           "공약란 입니다. Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[8] ",
         desc3:
-          "공약란 입니다. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. "
+          "공약란 입니다. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. ",
+        key: "busan_gijanggun_1"
       },
       {
         src:
@@ -30,7 +31,8 @@ const data = {
         introduce: "세계를 파괴시키겠습니다",
         desc1: "뀨 왤케 배가고픈건지 모르겠다.",
         desc2: "하늘에 와이파이를",
-        desc3: "새로운 세계로"
+        desc3: "새로운 세계로",
+        key: "busan_gijanggun_2"
       }
     ],
     haeundaegu: [
@@ -44,7 +46,8 @@ const data = {
         introduce: "야옹야옹야옹",
         desc1: "야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹",
         desc2: "야옹야옹야옹야옹야옹야옹야옹야옹야옹",
-        desc3: "야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹"
+        desc3: "야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹야옹",
+        key: "busan_haeundaegu"
       }
     ]
   },
@@ -59,7 +62,8 @@ const data = {
         desc1:
           "안녕하세요나는울산북구를존나게멋지게만들게요배고프다집에뭐먹을거있었나왜나는코딩만시작하면 왤케 배가고픈건지 모르겠다.",
         desc2: "하늘에 와이파이를",
-        desc3: "새로운 세계로2"
+        desc3: "새로운 세계로2",
+        key: "ulsan_bukgu"
       }
     ]
   }
@@ -77,7 +81,7 @@ const Goo = ({ match }) => {
   }
   return (
     <>
-      {sum.map((value, index) => {
+      {sum.map(value => {
         return (
           <Candidates
             src={value.src}
@@ -88,7 +92,7 @@ const Goo = ({ match }) => {
             desc1={value.desc1}
             desc2={value.desc2}
             desc3={value.desc3}
-            key={index}
+            key={value.key}
           />
         );
       })}

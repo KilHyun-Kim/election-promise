@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../css/Header.css";
 import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
-import { IoMdMoon } from "react-icons/io";
+import { GoInfo } from "react-icons/go";
 
 const Header = () => {
+  let [value, setValue] = useState(false);
+  useEffect(() => {
+    if (value) {
+      document.querySelector(".infoList").style.display = "block";
+    } else {
+      document.querySelector(".infoList").style.display = "none";
+    }
+  });
+  // buttonHover(){
+  //   document.querySelector('.infoList').style.display="block"
+  // }
+
   return (
     <header>
       <div className="header-container">
@@ -14,10 +26,20 @@ const Header = () => {
               <AiOutlineHome size={40} />
             </button>
           </Link>
-          <Link to="/">Algoppobja</Link>
-          <Link to="/">
-            <button>
-              <IoMdMoon size={40} />
+          <Link to="/" className="logo">
+            Algoppobja
+          </Link>
+          <Link to="/info">
+            <button
+              onMouseEnter={() => setValue((value = true))}
+              onMouseLeave={() => setValue((value = false))}
+            >
+              <GoInfo size={40} />
+              <div className="infoList">
+                <div>
+                  <Link to="/info">페이지의 정보를 볼 수 있습니다.</Link>
+                </div>
+              </div>
             </button>
           </Link>
         </div>

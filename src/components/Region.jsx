@@ -20,6 +20,7 @@ const Region = props => {
               id={value.id}
               href={value.href}
               coords={value.coords}
+              alt={value.alt}
               key={index}
             />
           );

@@ -6,7 +6,7 @@ const Candidates = props => {
       <div className="candidatesWrap">
         <div className="candidatesImage">
           <div className="__hooboImage">
-            <img src={props.src} key={props.index} />
+            <img src={props.src} key={props.key} />
           </div>
           <div className="__kiho">
             <h2>
@@ -26,7 +26,7 @@ const Candidates = props => {
             </ul>
           </div>
           <div className="dangImg">
-            <img src={props.dangImg} />
+            <img src={props.dangImg} key={props.dangkey} />
           </div>
         </div>
       </div>

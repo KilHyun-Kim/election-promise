@@ -1,0 +1,54 @@
+main {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.boxsizing {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+main p {
+  margin: 0;
+}
+.sequenceWrapper {
+  border-bottom: 1px dotted #000;
+  padding: 20px 0;
+}
+.sequenceList {
+  padding: 30px;
+}
+.clickScroll {
+  margin: 20px 40px;
+}
+.clickP {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+}
+.clickMe span {
+  font-size: 0.8em;
+  color: #444;
+}
+.sequenceList ul {
+  margin: 0;
+  padding: 0;
+}
+.sequenceList ul li {
+  list-style: none;
+  line-height: 40px;
+  margin: 5px 0;
+}
+.sequenceList ul li p {
+  display: inline-block;
+}
+/* explain */
+.explainWrapper {
+  height: 500px;
+  margin-top: 20px;
+  padding: 50px;
+}

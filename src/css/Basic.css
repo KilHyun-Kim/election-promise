@@ -60,3 +60,20 @@
   font-size: 1em;
   font-family: "Rubik";
 }
+
+@media (max-width: 760px) {
+  .BasicContainer {
+    flex-direction: column-reverse;
+    margin: 20px;
+    font-size: 0.8em;
+  }
+  .notice {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .planetmap {
+    margin-top: 20px;
+    height: 100%;
+  }
+}
