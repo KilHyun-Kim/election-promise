@@ -6,12 +6,14 @@ const Region = props => {
   // console.log(values);
   return (
     <>
-      <img
-        alt={props.imgAlt}
-        src={props.imgSrc}
-        name={props.name}
-        useMap={props.useMap}
-      />
+      <div className="imgCenter">
+        <img
+          alt={props.imgAlt}
+          src={props.imgSrc}
+          name={props.name}
+          useMap={props.useMap}
+        />
+      </div>
 
       <map name={props.mapName}>
         {values.map((value, index) => {

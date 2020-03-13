@@ -3,6 +3,19 @@ import Notice from "./components/Notice";
 import Region from "./components/Region";
 import BusanImg from "./image/Busan (1).jpg";
 import UlsanImg from "./image/Ulsan.jpg";
+import Gyeongsangnamdo from "./image/Gyeongsangnamdo.jpg";
+import Gyeongsangbukdo from "./image/Gyeongsangbukdo.gif";
+import Daegu from "./image/Daegu.png";
+import Gangwondo from "./image/Gangwondo.png";
+import Kyeonggido from "./image/Kyeonggido.jpg";
+import Incheon from "./image/Incheon.gif";
+import Chungcheongbukdo from "./image/Chungcheongbukdo.jpg";
+import Chungcheongnamdo from "./image/Chungcheongnamdo.jpg";
+import Daejeon from "./image/Daejeon.gif";
+import Jeollabukdo from "./image/Jeollabukdo.jpg";
+import Jeollanamdo from "./image/Jeollanamdo.jpg";
+import Gwangju from "./image/Gwangju.gif";
+import Jeju from "./image/Jeju.gif";
 const data = {
   busan: {
     alt: "부산지도",
@@ -119,8 +132,8 @@ const data = {
     alt: "울산지도",
     imgSrc: UlsanImg,
     name: "img2",
-    useMap: "#busanAria",
-    mapName: "busanAria",
+    useMap: "#ulsanAria",
+    mapName: "ulsanAria",
     values: [
       {
         id: "ulsanAria1",
@@ -153,7 +166,205 @@ const data = {
           "30,211,36,226,50,230,60,250,136,272,136,282,162,282,171,290,184,294,185,310,197,317,198,329,218,338,224,353,249,365,265,366,277,358,287,363,283,374,301,388,301,401,283,414,293,430,309,430,331,419,346,421,357,426,376,454,374,462,373,475,399,491,404,503,427,488,429,482,463,467,475,344,464,335,437,319,429,307,412,303,399,292,384,290,361,258,325,243,321,223,333,215,342,214,337,191,331,183,356,169,365,174,375,173,373,153,381,147,377,124,380,119,376,102,343,95,333,73,345,52,333,34,293,25,286,14,250,15,241,21,229,17,222,10,185,38,174,32,157,38,141,44,133,60,136,97,148,106,141,115,115,100,108,103,104,118,96,124,88,119,64,130,60,140,83,146,87,170,65,192,36,202"
       }
     ]
+  },
+  gyeongsangnamdo: {
+    alt: "경상남도지도",
+    imgSrc: Gyeongsangnamdo,
+    name: "img3",
+    useMap: "#gyeongsangnamdoAria",
+    mapName: "gyeongsangnamdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  gyeongsangbukdo: {
+    alt: "경상북도지도",
+    imgSrc: Gyeongsangbukdo,
+    name: "img4",
+    useMap: "#gyeongsangbukdoAria",
+    mapName: "gyeongsangbukdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  daegu: {
+    alt: "대구지도",
+    imgSrc: Daegu,
+    name: "img5",
+    useMap: "#daeguAria",
+    mapName: "daeguAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  gangwondo: {
+    alt: "강원도지도",
+    imgSrc: Gangwondo,
+    name: "img6",
+    useMap: "#gangwondoAria",
+    mapName: "gangwondoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  kyeonggido: {
+    alt: "경기도지도",
+    imgSrc: "https://www.epost.go.kr/images/comm/2013/popup/map_kyunggi.gif",
+    name: "img7",
+    useMap: "#kyeonggidoAria",
+    mapName: "kyeonggidoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  seoul: {
+    alt: "서울지도",
+    imgSrc: "https://miro.medium.com/max/960/1*rCDeP3WlpyHxc3zCob64xg.gif",
+    name: "img7",
+    useMap: "#kyeonggidoAria",
+    mapName: "kyeonggidoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  //서울리
+  incheon: {
+    alt: "인천지도",
+    imgSrc: Incheon,
+    name: "img7",
+    useMap: "#incheonAria",
+    mapName: "incheonAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  chungcheongbukdo: {
+    alt: "충청북도지도",
+    imgSrc: Chungcheongbukdo,
+    name: "img7",
+    useMap: "#chungcheongbukdoAria",
+    mapName: "chungcheongbukdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  chungcheongnamdo: {
+    alt: "충청남도지도",
+    imgSrc: Chungcheongnamdo,
+    name: "img7",
+    useMap: "#chungcheongnamdoAria",
+    mapName: "chungcheongnamdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  daejeon: {
+    alt: "대전지도",
+    imgSrc: Daejeon,
+    name: "img7",
+    useMap: "#daejeonAria",
+    mapName: "daejeonAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  jeollabukdo: {
+    alt: "전라북도지도",
+    imgSrc: Jeollabukdo,
+    name: "img7",
+    useMap: "#jeollabukdoAria",
+    mapName: "jeollabukdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  jeollanamdo: {
+    alt: "전라남도지도",
+    imgSrc: Jeollanamdo,
+    name: "img7",
+    useMap: "#jeollanamdoAria",
+    mapName: "jeollanamdoAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  gwangju: {
+    alt: "광주지도",
+    imgSrc: Gwangju,
+    name: "img7",
+    useMap: "#gwangjuAria",
+    mapName: "gwangjuAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
+  },
+  jeju: {
+    alt: "제주지도",
+    imgSrc: Jeju,
+    name: "img7",
+    useMap: "#jejuAria",
+    mapName: "jejuAria",
+    values: [
+      {
+        id: "",
+        href: "",
+        coords: ""
+      }
+    ]
   }
+  //
 };
 
 const Country = ({ match }) => {
@@ -167,7 +378,7 @@ const Country = ({ match }) => {
   return (
     <div className="BasicContainer">
       <Notice />
-      <div className="planetmap">
+      <div className="planetmap boxsizing">
         <Region
           alt={country.alt}
           imgSrc={country.imgSrc}

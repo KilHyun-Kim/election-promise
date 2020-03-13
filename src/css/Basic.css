@@ -4,20 +4,26 @@
   margin: 50px 20px;
   font-family: "Nanum Gothic Coding";
 }
-.BasicContainer div {
-  background: #fff;
+.boxsizing {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
 }
 
 .planetmap {
+  width: 50%;
   flex-shrink: 0;
   padding: 20px;
   margin: 0 auto;
 }
-.planetmap img {
+/* .planetmap img {
   width: 100%;
+} */
+.imgCenter {
+  text-align: center;
 }
 
 .notice {

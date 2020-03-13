@@ -5,7 +5,7 @@ import { GoAlert } from "react-icons/go";
 
 const Notice = () => {
   return (
-    <div className="notice">
+    <div className="notice boxsizing">
       <p>
         <GoAlert size={20} color="blue" />
         알립니다!
