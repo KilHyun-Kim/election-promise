@@ -35,3 +35,12 @@ const Candidates = props => {
 };
 
 export default Candidates;
+
+export const Dong = props => {
+  return (
+    <div className="dong boxsizing">
+      <h1>{props.area}</h1>
+      <h3>{props.dong}</h3>
+    </div>
+  );
+};

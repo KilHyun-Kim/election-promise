@@ -3,6 +3,9 @@ h3 {
   margin: 0;
 }
 
+.GooContainer {
+  margin: 50px auto;
+}
 .candidatesWrap {
   display: flex;
   padding: 30px;
@@ -89,4 +92,25 @@ h3 {
 .yetDev {
   font-size: 2em;
   text-align: center;
+}
+
+/* area */
+.__area {
+  width: 20%;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 20px;
+  font-size: 1em;
+}
+
+/* 갑 , 을 에 대한 동  */
+.dong {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1em;
+}
+.dong h1 {
+  margin: 0;
 }
