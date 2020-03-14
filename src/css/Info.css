@@ -48,7 +48,30 @@ main p {
 }
 /* explain */
 .explainWrapper {
-  height: 500px;
+  height: auto;
   margin-top: 20px;
   padding: 50px;
+}
+
+/* question */
+
+.question {
+  width: 80%;
+  margin: 80px auto;
+}
+.question h1 {
+  margin: 0;
+}
+.question h2 {
+  margin: 10px 0;
+  color: #888;
+}
+.question p {
+  margin: 10px 0;
+}
+
+.emphasize {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 20px;
 }
