@@ -76,10 +76,33 @@ header {
   color: #222;
 }
 @media (max-width: 760px) {
-  .header-contents a {
+  header {
+    height: auto;
+    margin: 10px 0;
+  }
+  .header-container {
+    padding: 0;
+  }
+  .header-contents {
+    justify-content: space-around;
+  }
+
+  .header-contents .logo {
     font-size: 1.5em;
   }
   .header-contents a svg {
     width: 25px;
+    height: 25px;
+  }
+  .header-contents button {
+    padding: 5px;
+  }
+  .infoList {
+    width: 150px;
+    left: -100px;
+    top: 50px;
+  }
+  .infoList a {
+    font-size: 0.7em;
   }
 }

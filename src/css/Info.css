@@ -1,6 +1,6 @@
-main {
+.infoContainer {
   width: 80%;
-  margin: 0 auto 50px;
+  margin: 50px auto;
 }
 
 .boxsizing {
@@ -74,4 +74,31 @@ main p {
   font-weight: bold;
   font-size: 1.2em;
   margin-left: 20px;
+}
+
+@media (max-width: 760px) {
+  .infoContainer {
+    width: auto;
+    margin: 20px;
+  }
+  .explainWrapper {
+    padding: 20px 0;
+  }
+  .question {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .question h1 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .question h2 {
+    margin: 5px 0;
+    color: #888;
+    font-size: 1em;
+  }
+  .question p {
+    margin: 5px 0;
+    font-size: 0.8em;
+  }
 }

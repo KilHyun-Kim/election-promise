@@ -2,6 +2,7 @@ import React from "react";
 import koreaMap from "../image/koreaColormap.gif";
 import AriaTag from "./AriaTag";
 import Notice from "./Notice";
+import PBasic from "./responsives/PBasic";
 
 const Basic = () => {
   return (
@@ -105,6 +106,7 @@ const Basic = () => {
           />
         </map>
       </div>
+      <PBasic />
     </div>
   );
 };

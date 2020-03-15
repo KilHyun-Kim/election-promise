@@ -1,0 +1,34 @@
+.circleContainer {
+  margin-top: 20px;
+}
+
+.circleWrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.borderradius {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 30%;
+  font-size: 2em;
+}
+.phoneLink {
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: #000;
+  text-decoration: none;
+}
+.phoneLink:visited {
+  text-align: none;
+}
+.phoneLink:hover {
+  opacity: 0.5;
+}
+
+/* animation */

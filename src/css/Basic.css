@@ -67,19 +67,26 @@
   font-family: "Rubik";
 }
 
+/* phone */
+.circleContainer {
+  display: none;
+}
+
 @media (max-width: 760px) {
   .BasicContainer {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 20px;
     font-size: 0.8em;
   }
   .notice {
-    position: relative;
+    position: static;
     width: 100%;
     height: 100%;
   }
   .planetmap {
-    margin-top: 20px;
-    height: 100%;
+    display: none;
+  }
+  .circleContainer {
+    display: block;
   }
 }
