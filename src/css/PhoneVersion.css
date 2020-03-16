@@ -12,15 +12,15 @@
 .borderradius {
   width: 100%;
   height: 100%;
-  border: 1px solid #000;
   border-radius: 30%;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .phoneLink {
-  width: 30%;
-  height: 100px;
+  width: 25%;
+  height: 80px;
   text-align: center;
-  line-height: 100px;
+  line-height: 80px;
   color: #000;
   text-decoration: none;
 }

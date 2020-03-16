@@ -101,7 +101,20 @@ const data = {
         desc3: "새로운 세계로2",
         key: "ulsan_bukgu"
       }
-    ]
+    ],
+    donggu: [],
+    junggu: [],
+    namgu: [],
+    uljugun: []
+  },
+  daegu: {
+    junggunamgu: [],
+    donggu: [],
+    seogu: [],
+    bukgu: [],
+    suseonggu: [],
+    dalseogu: [],
+    dalseonggun: []
   }
 };
 
