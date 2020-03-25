@@ -14,11 +14,14 @@ const Notice = () => {
       <ul>
         <li className="fontEmphasize">
           현재 개발 중인 사이트입니다.
-          <br /> 테스트용 입니다
+          <br /> 테스트용 입니다.
+          <br />
+          3.27 업로드 예정 입니다.
         </li>
         <li className="fontEmphasize">
           <hr />
-          지도에서 부산을 클릭후 기장군으로 들어가주세요!
+          지도에서 부산을 클릭후
+          <br /> <span>해운대구</span>로 들어가주세요!
         </li>
         <li className="fontEmphasize">
           <hr />
