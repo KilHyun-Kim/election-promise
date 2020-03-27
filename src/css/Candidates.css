@@ -114,3 +114,46 @@ h3 {
 .dong h1 {
   margin: 0;
 }
+
+@media (max-width: 760px) {
+  .GooContainer {
+    margin: 20px auto 0px;
+  }
+  .candidatesWrap {
+    margin: 20px auto;
+    padding: 20px;
+    display: block;
+  }
+  .candidatesImage {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .__hooboImage {
+    margin: 20px;
+    height: 300px;
+  }
+  .__gongyark {
+    width: 100%;
+    font-size: 1em;
+  }
+  .__desc {
+    font-size: 0.8em;
+  }
+  .__desc ul {
+    margin: 20px 5px;
+  }
+  .__introduce h2 {
+    font-size: 1em;
+  }
+  .dangImg {
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+  }
+  .dong {
+    font-size: 0.5em;
+  }
+  .__kiho h2 {
+    margin-bottom: 0;
+  }
+}
