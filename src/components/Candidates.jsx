@@ -4,8 +4,8 @@ const Candidates = props => {
   return (
     <>
       <div className="candidatesWrap">
-        <div className="candidatesImage">
-          <div className="__hooboImage">
+        <div className="candidatesImage boxsizing">
+          <div className="__hooboImage ">
             <img src={props.src} key={props.key} />
           </div>
           <div className="__kiho">
