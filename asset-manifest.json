@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/election-promise/static/css/main.2ae871b6.chunk.css",
+    "main.js": "/election-promise/static/js/main.7ab088a3.chunk.js",
+    "main.js.map": "/election-promise/static/js/main.7ab088a3.chunk.js.map",
+    "runtime-main.js": "/election-promise/static/js/runtime-main.471ff2e2.js",
+    "runtime-main.js.map": "/election-promise/static/js/runtime-main.471ff2e2.js.map",
+    "static/js/2.33a57dd0.chunk.js": "/election-promise/static/js/2.33a57dd0.chunk.js",
+    "static/js/2.33a57dd0.chunk.js.map": "/election-promise/static/js/2.33a57dd0.chunk.js.map",
+    "index.html": "/election-promise/index.html",
+    "precache-manifest.32494a080e0747cdcf899c1da399ea77.js": "/election-promise/precache-manifest.32494a080e0747cdcf899c1da399ea77.js",
+    "service-worker.js": "/election-promise/service-worker.js",
+    "static/css/main.2ae871b6.chunk.css.map": "/election-promise/static/css/main.2ae871b6.chunk.css.map",
+    "static/js/2.33a57dd0.chunk.js.LICENSE.txt": "/election-promise/static/js/2.33a57dd0.chunk.js.LICENSE.txt",
+    "static/media/Busan (1).jpg": "/election-promise/static/media/Busan (1).e7f81971.jpg",
+    "static/media/Chungcheongbukdo.jpg": "/election-promise/static/media/Chungcheongbukdo.b84515ac.jpg",
+    "static/media/Chungcheongnamdo.jpg": "/election-promise/static/media/Chungcheongnamdo.2bc61a62.jpg",
+    "static/media/Daegu.png": "/election-promise/static/media/Daegu.9bae13fa.png",
+    "static/media/Daejeon.gif": "/election-promise/static/media/Daejeon.cda81b0e.gif",
+    "static/media/Gangwondo.png": "/election-promise/static/media/Gangwondo.2f0ab878.png",
+    "static/media/Gwangju.gif": "/election-promise/static/media/Gwangju.50e1d9bb.gif",
+    "static/media/Gyeongsangbukdo.gif": "/election-promise/static/media/Gyeongsangbukdo.0ac2f3c9.gif",
+    "static/media/Gyeongsangnamdo.jpg": "/election-promise/static/media/Gyeongsangnamdo.3c16fb51.jpg",
+    "static/media/Incheon.gif": "/election-promise/static/media/Incheon.63f9115f.gif",
+    "static/media/Jeju.gif": "/election-promise/static/media/Jeju.badbb0ea.gif",
+    "static/media/Jeollabukdo.jpg": "/election-promise/static/media/Jeollabukdo.0aa8892b.jpg",
+    "static/media/Jeollanamdo.jpg": "/election-promise/static/media/Jeollanamdo.80079dc2.jpg",
+    "static/media/Ulsan.jpg": "/election-promise/static/media/Ulsan.c30f9f38.jpg",
+    "static/media/chungju.png": "/election-promise/static/media/chungju.2fc180f0.png",
+    "static/media/koreaColormap.gif": "/election-promise/static/media/koreaColormap.f31fd3c0.gif",
+    "static/media/경기도.png": "/election-promise/static/media/경기도.8845a431.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.471ff2e2.js",
+    "static/js/2.33a57dd0.chunk.js",
+    "static/css/main.2ae871b6.chunk.css",
+    "static/js/main.7ab088a3.chunk.js"
+  ]
+}
